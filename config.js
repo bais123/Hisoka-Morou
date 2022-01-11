@@ -19,19 +19,19 @@ global.APIKeys = {
 
 // Other
 global.owner = ['6288292024190','62882920241909','62882920241908']
-global.packname = 'Hisoka Morrow'
-global.author = '\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n'
+global.packname = 'Dibuat oleh'
+global.author = 'BaisMD
 global.sessionName = 'hisoka'
 global.prefa = ['','!','.','🐦','🐤','🗿']
 global.sp = '⭔'
 global.mess = {
-    admin: 'Fitur Khusus Admin Group!',
-    botAdmin: 'Bot Harus Menjadi Admin Terlebih Dahulu!',
-    owner: 'Fitur Khusus Owner Bot',
-    group: 'Fitur Digunakan Hanya Untuk Group!',
-    private: 'Fitur Digunakan Hanya Untuk Private Chat!',
+    admin: 'Fitur Khusus Admin Grup...',
+    botAdmin: 'Bot Harus Menjadi Admin Grup...',
+    owner: 'Fitur ini Khusus Owner Bot...',
+    group: 'Fitur Digunakan Hanya Untuk Grup...',
+    private: 'Fitur Digunakan Hanya Untuk Private Message...',
     bot: 'Fitur Khusus Pengguna Nomor Bot',
-    wait: 'Loading...',
+    wait: '*Masih Dalam Proses...',
 }
 global.thumb = fs.readFileSync('./lib/hisoka.jpg')
 

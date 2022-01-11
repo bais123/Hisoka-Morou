@@ -630,7 +630,7 @@ module.exports = hisoka = async (hisoka, m, chatUpdate) => {
                 hisoka.sendText(m.chat, `⭔ *Hasil :* ${anu.message}`, m)
             }
             break
-	        case 'tiktok': case 'tiktoknowm': {
+		case 'tiktok': case 'tiktoknowm': case 'tt': {
                 if (!text) throw 'Masukkan Query Link!'
                 m.reply(mess.wait)
                 let anu = await fetchJson(api('zenz', '/api/downloader/tiktok', { url: text }, 'apikey'))
@@ -852,8 +852,6 @@ ${cpus.map((cpu, i) => `${i + 1}. ${cpu.model.trim()} (${cpu.speed} MHZ)\n${Obje
 
 ┌──⭓ *Random Menu*
 │
-│⭔ ${prefix}porno
-│⭔ ${prefix}hentai
 │⭔ ${prefix}quotesanime
 │⭔ ${prefix}motivasi
 │⭔ ${prefix}dilanquote
